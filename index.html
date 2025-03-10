@@ -3,22 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog Saya</title>
+    <title>REST API: Definisi & Contoh Penggunaan</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Selamat Datang di Blog Saya</h1>
-        <p>Blog sederhana menggunakan GitHub Pages</p>
+        <h1>REST API: Definisi & Contoh Penggunaan</h1>
     </header>
     <main>
-        <article>
-            <h2>Postingan Pertama</h2>
-            <p>Ini adalah contoh postingan pertama di blog ini. Semoga bermanfaat!</p>
-        </article>
+        <section>
+            <h2>Apa Itu REST API?</h2>
+            <p>REST API (Representational State Transfer - Application Programming Interface) adalah arsitektur yang digunakan untuk membangun layanan web yang memungkinkan komunikasi antara client dan server.</p>
+        </section>
+        <section>
+            <h2>Metode HTTP dalam REST API</h2>
+            <ul>
+                <li><strong>GET</strong> - Mengambil data dari server</li>
+                <li><strong>POST</strong> - Mengirim data baru ke server</li>
+                <li><strong>PUT</strong> - Memperbarui data di server</li>
+                <li><strong>DELETE</strong> - Menghapus data dari server</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Contoh Penggunaan REST API</h2>
+            <p>Contoh penggunaan REST API adalah dalam aplikasi cuaca. Misalnya, untuk mendapatkan informasi cuaca:</p>
+            <code>GET https://api.weather.com/v1/location/jakarta?apikey=12345</code>
+            <p>Hasilnya akan berupa JSON seperti ini:</p>
+            <pre>{ "lokasi": "Jakarta", "suhu": "30°C", "kondisi": "Cerah" }</pre>
+        </section>
     </main>
     <footer>
-        <p>&copy; 2025 Blog Saya</p>
+        <p>&copy; 2025 - Tugas Kampus REST API</p>
     </footer>
 </body>
 </html>
