@@ -4,20 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>REST API: Definisi & Contoh Penggunaan</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
     <header>
-        REST API: Definisi & Contoh Penggunaan
+        <h1>REST API: Definisi & Contoh Penggunaan</h1>
     </header>
     <main>
-        <section>
+        <article>
             <h2>Apa Itu REST API?</h2>
-            <p>
-                REST API (Representational State Transfer - Application Programming Interface) adalah arsitektur yang digunakan untuk membangun layanan web yang memungkinkan komunikasi antara client dan server.
-            </p>
-        </section>
-        <section>
+            <p>REST API (Representational State Transfer - Application Programming Interface) adalah arsitektur yang digunakan untuk membangun layanan web yang memungkinkan komunikasi antara client dan server.</p>
+        </article>
+        <article>
             <h2>Metode HTTP dalam REST API</h2>
             <ul>
                 <li><strong>GET</strong> - Mengambil data dari server.</li>
@@ -25,27 +23,21 @@
                 <li><strong>PUT</strong> - Memperbarui data di server.</li>
                 <li><strong>DELETE</strong> - Menghapus data dari server.</li>
             </ul>
-        </section>
-        <section>
+        </article>
+        <article>
             <h2>Contoh Penggunaan REST API</h2>
-            <p>
-                Contoh penggunaan REST API adalah dalam aplikasi cuaca. Misalnya, untuk mendapatkan informasi cuaca:
-            </p>
-            <code>
-                GET https://api.weather.com/v1/location/jakarta?apikey=12345
-            </code>
+            <p>Contoh penggunaan REST API adalah dalam aplikasi cuaca. Misalnya, untuk mendapatkan informasi cuaca:</p>
+            <pre><code>GET https://api.weather.com/v1/location/jakarta?apikey=12345</code></pre>
             <p>Hasilnya akan berupa JSON seperti ini:</p>
-            <pre>
-{
-    "lokasi": "Jakarta",
-    "suhu": "30°C",
-    "kondisi": "Cerah"
-}
-            </pre>
-        </section>
-    </main>
-    <footer>
-        &copy; 2025 - Tugas Kampus REST API
+            <pre><code>{
+"lokasi": "Jakarta",
+"suhu": "30°C",
+"kondisi": "Cerah"}
+                </code>
+            </pre> 
+        </article> 
+    </main> 
+    <footer> 
+        <p>© 2025 - Tugas Kampus REST API</p> 
     </footer>
-</body>
-</html>
+</body> </html>
